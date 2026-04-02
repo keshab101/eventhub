@@ -1,0 +1,19 @@
+# Java
+target/
+*.log
+
+# IDE
+.idea/
+*.iml
+.project
+.classpath
+.settings/
+
+# OS
+.DS_Store
+
+# Node (future Angular)
+node_modules/
+
+# Docker
+*.env
