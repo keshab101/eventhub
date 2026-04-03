@@ -1,4 +1,4 @@
-package com.eventhub.security;
+package com.eventhub.auth.security;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

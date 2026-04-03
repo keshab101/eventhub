@@ -1,4 +1,4 @@
-package com.eventhub.services;
+package com.eventhub.auth.services;
 
 import java.util.Date;
 

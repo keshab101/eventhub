@@ -1,11 +1,11 @@
-package com.eventhub.repository;
+package com.eventhub.auth.repository;
 
 import java.util.Optional;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import com.eventhub.entity.User;
+import com.eventhub.auth.entity.User;
 
 @Repository
 public interface UserRepository extends JpaRepository<User, Long> {

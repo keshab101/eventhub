@@ -1,12 +1,12 @@
-package com.eventhub.controller;
+package com.eventhub.auth.controller;
 
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.eventhub.services.AuthService;
-import com.eventhub.util.AuthRequest;
+import com.eventhub.auth.services.AuthService;
+import com.eventhub.auth.util.AuthRequest;
 
 import lombok.RequiredArgsConstructor;
 

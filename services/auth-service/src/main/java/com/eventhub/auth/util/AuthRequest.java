@@ -1,4 +1,4 @@
-package com.eventhub.util;
+package com.eventhub.auth.util;
 import lombok.Data;
 import lombok.Getter;
 import lombok.Setter;

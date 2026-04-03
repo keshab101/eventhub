@@ -1,12 +1,12 @@
-package com.eventhub.services;
+package com.eventhub.auth.services;
 
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.stereotype.Service;
 
-import com.eventhub.entity.Role;
-import com.eventhub.entity.User;
-import com.eventhub.repository.UserRepository;
-import com.eventhub.util.AuthRequest;
+import com.eventhub.auth.entity.Role;
+import com.eventhub.auth.entity.User;
+import com.eventhub.auth.repository.UserRepository;
+import com.eventhub.auth.util.AuthRequest;
 
 import lombok.RequiredArgsConstructor;
 
