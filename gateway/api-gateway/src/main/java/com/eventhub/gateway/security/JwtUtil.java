@@ -1,7 +1,6 @@
 package com.eventhub.gateway.security;
 
 import org.springframework.stereotype.Component;
-
 import io.jsonwebtoken.Jwts;
 
 /**

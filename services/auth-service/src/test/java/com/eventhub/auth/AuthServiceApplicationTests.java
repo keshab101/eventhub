@@ -1,4 +1,4 @@
-package com.eventhub.auth_service;
+package com.eventhub.auth;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
