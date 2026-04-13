@@ -12,7 +12,7 @@ import io.jsonwebtoken.Jwts;
 @Component
 public class JwtUtil {
 	
-	private final String SECRET = "supersecretkey";
+	private final String SECRET = "myverysecuresecretkeythatisatleast32byteslong";
 
     public boolean validateToken(String token) {
         try {
