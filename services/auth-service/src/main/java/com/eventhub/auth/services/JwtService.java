@@ -9,7 +9,8 @@ import io.jsonwebtoken.security.Keys;
 @Service
 public class JwtService {
 
-	private final String SECRET = "supersecretkey";
+	//private final SecretKey key = Keys.secretKeyFor(SignatureAlgorithm.HS256);
+	private final String SECRET = "myverysecuresecretkeythatisatleast32byteslong!";
 	
 	public String generateToken(String username) {
         return Jwts.builder()

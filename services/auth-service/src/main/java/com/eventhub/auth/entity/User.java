@@ -15,7 +15,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 @Entity
-@Table(name = "users")
+@Table(name = "users", schema = "eventhub")
 @Getter @Setter @Builder
 @NoArgsConstructor @AllArgsConstructor
 public class User {
