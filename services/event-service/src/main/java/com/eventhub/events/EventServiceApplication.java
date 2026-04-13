@@ -1,4 +1,4 @@
-package com.eventhub.event_service;
+package com.eventhub.events;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

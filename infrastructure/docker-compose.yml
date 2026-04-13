@@ -5,7 +5,7 @@ services:
     image: postgres:15
     container_name: postgres-auth
     environment:
-      POSTGRES_DB: auth_db
+      POSTGRES_DB: event_db
       POSTGRES_USER: postgres
       POSTGRES_PASSWORD: password
     ports:
